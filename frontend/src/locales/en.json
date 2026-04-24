@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Our Services",
+    "request": "Request Service",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroBadge": "Industrial maintenance experts",
+    "heroTitle": "Industrial Maintenance Services",
+    "heroSubtitle": "Complete maintenance, repair and consulting solutions for your industrial facilities. Reliability, speed and technical expertise to boost your productivity.",
+    "heroCta": "Request Service",
+    "heroCtaSecondary": "Discover our services",
+    "statsExperience": "Years of experience",
+    "statsProjects": "Completed projects",
+    "statsClients": "Satisfied clients",
+    "statsSupport": "Technical support",
+    "servicesTitle": "Our areas of expertise",
+    "servicesSubtitle": "A full range of services to meet all your industrial needs",
+    "viewAll": "View all services",
+    "whyTitle": "Why choose us",
+    "whySubtitle": "A trusted partner for your industrial maintenance",
+    "why1Title": "Certified expertise",
+    "why1Desc": "Qualified technicians and equipment compliant with the strictest industrial standards.",
+    "why2Title": "Fast response",
+    "why2Desc": "24/7 emergency service to minimize downtime in your production.",
+    "why3Title": "Tailored solutions",
+    "why3Desc": "Every project is unique. We adapt our interventions to your specific needs.",
+    "ctaTitle": "Ready to optimize your maintenance?",
+    "ctaSubtitle": "Contact our experts today and get a personalized quote",
+    "ctaButton": "Request a free quote"
+  },
+  "services": {
+    "pageTitle": "Our Services",
+    "pageSubtitle": "Complete industrial maintenance solutions tailored to your needs",
+    "requestButton": "Request this service",
+    "items": {
+      "repair": {
+        "title": "Repair",
+        "description": "Accurate diagnosis and fast repair of all your industrial equipment. On-site or workshop service."
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "Professional installation of your new equipment with commissioning and staff training."
+      },
+      "hvac": {
+        "title": "HVAC",
+        "description": "Preventive and corrective maintenance of your heating, ventilation and air conditioning systems."
+      },
+      "electrical": {
+        "title": "Electrical",
+        "description": "Installation, troubleshooting and compliance upgrades of your industrial equipment and switchboards."
+      },
+      "mechanical": {
+        "title": "Mechanical",
+        "description": "Full mechanical maintenance: machines, motors, transmissions, pumps and hydraulic systems."
+      },
+      "smart": {
+        "title": "Smart Solutions",
+        "description": "IoT integration, connected sensors and remote monitoring for predictive maintenance."
+      },
+      "consultation": {
+        "title": "Expert Consultation",
+        "description": "Audit, strategic advice and optimization of your industrial maintenance policy."
+      }
+    }
+  },
+  "request": {
+    "pageTitle": "Service Request",
+    "pageSubtitle": "Fill out the form below and our experts will contact you within 24 hours",
+    "fullName": "Full Name",
+    "fullNamePh": "John Smith",
+    "email": "Email Address",
+    "emailPh": "john.smith@company.com",
+    "phone": "Phone",
+    "phonePh": "+1 555 123 4567",
+    "address": "Address",
+    "addressPh": "123 Industry Street, New York, NY",
+    "service": "Service Category",
+    "servicePh": "Select a service",
+    "type": "Request Type",
+    "typeService": "Service",
+    "typeConsultation": "Consultation",
+    "description": "Description of your need",
+    "descriptionPh": "Describe your request precisely, the context and any constraints...",
+    "urgency": "Urgency Level",
+    "urgencyLow": "Low",
+    "urgencyMedium": "Medium",
+    "urgencyHigh": "High",
+    "preferredDate": "Preferred Date",
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "errorGeneric": "An error occurred. Please try again."
+  },
+  "success": {
+    "title": "Request sent successfully!",
+    "subtitle": "Thank you for your trust. Our experts are reviewing your request and will get back to you shortly.",
+    "reference": "Reference number",
+    "backHome": "Back to home",
+    "newRequest": "New request"
+  },
+  "footer": {
+    "tagline": "Your trusted partner for efficient and sustainable industrial maintenance.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "address": "123 Industry Avenue, 75001 Paris",
+    "rights": "All rights reserved."
+  }
+}

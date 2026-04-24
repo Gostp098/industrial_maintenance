@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Nos Services",
+    "request": "Demander un service",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroBadge": "Experts en maintenance industrielle",
+    "heroTitle": "Industrial Maintenance Services",
+    "heroSubtitle": "Solutions complètes de maintenance, réparation et conseil pour vos installations industrielles. Fiabilité, rapidité et expertise technique au service de votre productivité.",
+    "heroCta": "Demander un service",
+    "heroCtaSecondary": "Découvrir nos services",
+    "statsExperience": "Ans d'expérience",
+    "statsProjects": "Projets réalisés",
+    "statsClients": "Clients satisfaits",
+    "statsSupport": "Support technique",
+    "servicesTitle": "Nos domaines d'expertise",
+    "servicesSubtitle": "Une gamme complète de services pour répondre à tous vos besoins industriels",
+    "viewAll": "Voir tous les services",
+    "whyTitle": "Pourquoi nous choisir",
+    "whySubtitle": "Un partenaire de confiance pour votre maintenance industrielle",
+    "why1Title": "Expertise certifiée",
+    "why1Desc": "Techniciens qualifiés et équipements conformes aux normes industrielles les plus exigeantes.",
+    "why2Title": "Intervention rapide",
+    "why2Desc": "Service d'urgence 24/7 pour minimiser les temps d'arrêt de votre production.",
+    "why3Title": "Solutions sur mesure",
+    "why3Desc": "Chaque projet est unique. Nous adaptons nos interventions à vos besoins spécifiques.",
+    "ctaTitle": "Prêt à optimiser votre maintenance ?",
+    "ctaSubtitle": "Contactez nos experts dès aujourd'hui et obtenez un devis personnalisé",
+    "ctaButton": "Demander un devis gratuit"
+  },
+  "services": {
+    "pageTitle": "Nos Services",
+    "pageSubtitle": "Solutions complètes de maintenance industrielle adaptées à vos besoins",
+    "requestButton": "Demander ce service",
+    "items": {
+      "repair": {
+        "title": "Réparation",
+        "description": "Diagnostic précis et réparation rapide de tous vos équipements industriels. Intervention sur site ou en atelier."
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "Installation professionnelle de vos équipements neufs avec mise en service et formation de vos équipes."
+      },
+      "hvac": {
+        "title": "HVAC / Climatisation",
+        "description": "Maintenance préventive et corrective de vos systèmes de chauffage, ventilation et climatisation."
+      },
+      "electrical": {
+        "title": "Électrique",
+        "description": "Installation, dépannage et mise aux normes de vos équipements et tableaux électriques industriels."
+      },
+      "mechanical": {
+        "title": "Mécanique",
+        "description": "Maintenance mécanique complète : machines, moteurs, transmissions, pompes et systèmes hydrauliques."
+      },
+      "smart": {
+        "title": "Solutions intelligentes",
+        "description": "Intégration IoT, capteurs connectés et supervision à distance pour une maintenance prédictive."
+      },
+      "consultation": {
+        "title": "Consultation expert",
+        "description": "Audit, conseil stratégique et optimisation de votre politique de maintenance industrielle."
+      }
+    }
+  },
+  "request": {
+    "pageTitle": "Demande de service",
+    "pageSubtitle": "Remplissez le formulaire ci-dessous et nos experts vous contacteront sous 24h",
+    "fullName": "Nom complet",
+    "fullNamePh": "Jean Dupont",
+    "email": "Adresse e-mail",
+    "emailPh": "jean.dupont@entreprise.com",
+    "phone": "Téléphone",
+    "phonePh": "+33 6 12 34 56 78",
+    "address": "Adresse",
+    "addressPh": "123 Rue de l'Industrie, 75001 Paris",
+    "service": "Catégorie de service",
+    "servicePh": "Sélectionnez un service",
+    "type": "Type de demande",
+    "typeService": "Service",
+    "typeConsultation": "Consultation",
+    "description": "Description de votre besoin",
+    "descriptionPh": "Décrivez précisément votre demande, le contexte et les contraintes éventuelles...",
+    "urgency": "Niveau d'urgence",
+    "urgencyLow": "Faible",
+    "urgencyMedium": "Moyen",
+    "urgencyHigh": "Élevé",
+    "preferredDate": "Date souhaitée",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours...",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse e-mail invalide",
+    "invalidPhone": "Numéro de téléphone invalide",
+    "errorGeneric": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "success": {
+    "title": "Demande envoyée avec succès !",
+    "subtitle": "Merci pour votre confiance. Nos experts étudient votre demande et vous recontacteront dans les plus brefs délais.",
+    "reference": "Numéro de référence",
+    "backHome": "Retour à l'accueil",
+    "newRequest": "Nouvelle demande"
+  },
+  "footer": {
+    "tagline": "Votre partenaire de confiance pour une maintenance industrielle performante et durable.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "address": "123 Avenue de l'Industrie, 75001 Paris",
+    "rights": "Tous droits réservés."
+  }
+}
