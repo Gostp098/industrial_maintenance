@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.env
+.git
+dist
+build
+.DS_Store
+coverage

@@ -1,16 +1,14 @@
 import axios from 'axios';
 import { API_URL } from './environment';
 
-const baseURL = API_URL;
-
 export const api = axios.create({
-  baseURL,
+  baseURL: API_URL,  // '/api'
   headers: {
     'Content-Type': 'application/json',
   },
 });
 
-// Your other API functions here...
-export const createRequest = (config) => {
-  return api(config);
+// POST /api/requests
+export const createRequest = (data) => {
+  return api.post('/requests', data);
 };

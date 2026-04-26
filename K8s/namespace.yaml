@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: industrial-maintenance
+  labels:
+    app: industrial-maintenance
+    environment: production

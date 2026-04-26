@@ -1,0 +1,59 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: industrial_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mariem
+      POSTGRES_DB: industrial_maintenance
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - industrial_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ..          # project root (one level up from docker/)
+      dockerfile: docker/backend/Dockerfile
+    container_name: industrial_backend
+    environment:
+      DB_USER: postgres
+      DB_PASSWORD: mariem
+      DB_NAME: industrial_maintenance
+      DB_HOST: postgres    # matches the service name above
+      DB_PORT: 5432
+      PORT: 5000
+    ports:
+      - "5000:5000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - industrial_network
+
+  frontend:
+    build:
+      context: ..          # project root (one level up from docker/)
+      dockerfile: docker/frontend/Dockerfile
+    container_name: industrial_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - industrial_network
+
+volumes:
+  postgres_data:
+    name: industrial_postgres_data
+
+networks:
+  industrial_network:
+    driver: bridge
