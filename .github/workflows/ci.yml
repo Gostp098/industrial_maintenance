@@ -123,6 +123,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Debug secrets
+        run: |
+          echo "SONAR_HOST_URL is set: ${{ secrets.SONAR_HOST_URL != '' }}"
+          echo "SONAR_TOKEN is set: ${{ secrets.SONAR_TOKEN != '' }}"
+
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@master
         env:
@@ -148,7 +153,7 @@ jobs:
         with:
           image-ref: "backend-scan:latest"
           format: "table"
-          exit-code: "1"        # ← pipeline FAILS on CRITICAL CVEs
+          exit-code: "1"
           ignore-unfixed: true
           vuln-type: "os,library"
           severity: "CRITICAL"
@@ -162,7 +167,7 @@ jobs:
         with:
           image-ref: "frontend-scan:latest"
           format: "table"
-          exit-code: "1"        # ← pipeline FAILS on CRITICAL CVEs
+          exit-code: "1"
           ignore-unfixed: true
           vuln-type: "os,library"
           severity: "CRITICAL"
